@@ -63,7 +63,7 @@ function AccountForm({ customer }: IAccountForm) {
 						formError = message;
 					});
 				} catch (error) {
-					console.log(error);
+					console.log('error ______', error);
 				}
 				cookies().set({
 					name: 'customerAccessToken',
