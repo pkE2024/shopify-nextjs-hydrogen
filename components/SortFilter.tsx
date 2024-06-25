@@ -7,8 +7,9 @@ import { IconCaret, IconFilters, IconXMark } from './Icon';
 import { Heading, Text } from './Text';
 import { Link } from './Link';
 import { Filter, Collection, FilterType } from '@/lib/shopify/types';
-import { useRouter } from 'next/router';
+
 import clsx from 'clsx';
+import { useRouter } from 'next/navigation';
 
 export type AppliedFilter = {
 	label: string;
